@@ -1,5 +1,5 @@
 # AWSLambda-SMTPLIB-Python
-Using Python and the smtplib library, we can upload this into Lambda to set up scheduled emails. For MondayMotivation, it will send a motivational quote to your email. I put it in Lambda to make it send the email every Monday at 8 A.M. Check my Blog at https://dev.to/andreapeterson/send-automated-emails-smtplib-python-through-lambda-15jk for the tutorial of how I did it.
+Using Python and the smtplib library, we can upload this into Lambda to set up scheduled emails. For MondayMotivation, it will send a motivational quote to your email. I put it in Lambda to make it send the email every Monday at 8 A.M. Check my Blog at https://dev.to/andreapeterson/send-automated-emails-smtplib-python-through-lambda-15jk for the tutorial of how I did it. For Birthday emails, you should have Lambda run it every day as a time of your choosing.
 
 The MondayMotivation2.py file is the Python file before adding incorporating the code into a Lamda function and adding environment variables(Once you enter your information where the XXXX go, you can run this in Python, but I wanted to put in into Lambda so I don't have to run this file manually every Monday at 8 a.m.). The MondayMotivation.py file is the final code with the Lambda function and environment variables. These must be in the same folder as the quotes.txt.
 
