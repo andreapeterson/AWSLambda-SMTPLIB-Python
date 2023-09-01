@@ -5,4 +5,5 @@ The MondayMotivation2.py file is the Python file before adding incorporating the
 
 For scheduled Birthday emails, the BirthdayMain.py is edited to be inserted into Lambda. Edit the birthdays.csv with any information you would like to add (add the day of today for testing) and add this to the same folder as the BirthdayMain.py. Have a folder that contains the letter templates (edit them to your liking)
 
-[py.pdf](https://github.com/andreapeterson/AWSLambda-SMTPLIB-Python/files/12492225/py.pdf)
+
+![py1](https://github.com/andreapeterson/AWSLambda-SMTPLIB-Python/assets/134665743/fe47e23f-e9a9-4a33-9555-c1f22c894133)
